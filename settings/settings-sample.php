@@ -46,7 +46,7 @@ class Sample_Integration_Settings extends \Uncanny_Automator\Settings\Premium_In
 			return 'success';
 		}
 
-		// Return an empty string is not connected
+		// Return an empty string if not connected
 		return '';
 	}
 
